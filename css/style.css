@@ -702,7 +702,7 @@ body{
 .contact_info input::placeholder{
     color: #ffca09;
 }
-.contact_item form input::placeholder{
+.contact_item textarea::placeholder{
    color: #ffca09;
     
 }
@@ -710,29 +710,23 @@ body{
     background-color: #10041c;
     transition: all 0.4s;
 }
-.contact_item form{
-    height: 70%;
-    width: 100%;
+.contact_item textarea{
     border-radius: 10px;
     background-color: #271537;
     box-shadow: 0 0 10px #00ff95;
     transition: all 0.4s;
-    
-    
-}
-.contact_item form:hover{
-    background-color: #10041c;
-    transition: all 0.4s;
-}
-.contact_item form input{
-    padding-bottom: 150px;
-    padding-right: 200px;
-    background-color: transparent;
-    margin-top: 10px;
-    margin-left: 20px;
     outline: none;
     border: none;
     color: #ffff;
+    padding-left: 10px;
+  
+    
+    
+    
+}
+.contact_item form textarea:hover{
+    background-color: #10041c;
+    transition: all 0.4s;
 }
 #cont_btn{
     margin-top: 30px;
