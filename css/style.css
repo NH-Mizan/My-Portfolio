@@ -115,7 +115,7 @@ body{
 
    } */
 
-   .topbar_item .topbar_right a{
+   .hay-btn .topbar_right a{
     text-align: end;
     color: #00ff95;
     background:linear-gradient(to left,rgba(0, 255, 170, 0.601) ,rgba(255, 98, 0, 0.606));
@@ -129,10 +129,10 @@ body{
     transition: all 0.5s;
    
    }
-   .topbar_item .topbar_right a svg{
+   .hay-btn .topbar_right a svg{
     color: #ffff;
    }
-   .topbar_item .topbar_right a:hover{
+   .hay-btn .topbar_right a:hover{
     color:#ffff;
     transition: all 0.5s;
     text-shadow:  0 0 20px #ffff;
@@ -154,26 +154,24 @@ body{
     font-size: 30px;
     font-weight: 900;
     color: #fff;
-}
-.mobile-menu{
-    margin-left: 140px;
-}
-.mobile-item ul li a{
-  color: #00ff95;
-  font-weight: 600;
-}
-.mobile-item ul li {
-    display: block;
-    line-height: 40px;
-   
-   
-    text-transform: uppercase;
-}
-.mobile-item{
-    background-color: #271537a8;
-    display: none;
-}
-.mobile-item ul li a:hover{
+    }
+
+    .mobile-item ul li a{
+    color: #00ff95;
+    font-weight: 600;
+    }
+    .mobile-item ul li {
+        display: block;
+        line-height: 40px;
+    
+    
+        text-transform: uppercase;
+    }
+    .mobile-item{
+        background-color: #271537a8;
+        display: none;
+    }
+    .mobile-item ul li a:hover{
     color: #ffff;
    
     transition: all 0.5s;

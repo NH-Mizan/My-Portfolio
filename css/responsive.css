@@ -1,38 +1,91 @@
 @media only screen and (min-width:320px)and (max-width:575px){
     .container{
-        width: 97%;
-        margin: 0 auto;
+        width: 90%;
+ 
+        border: 2px solid red;
     }
-    .header_section{margin-top: 0;border-bottom: 2px dotted #fff; margin-bottom: 30px;}
-    .topbar_item .topbar_right a{
+    .topbar_inner{
+     display: flex;
+     justify-content: space-between;
+    }
+    .hay-btn,
+    .topbar_item{
+        position: absolute;
+    }
+   
+    .abt_img img{
+        max-width: 100%;
+    }
+    .services_bag{
+        width: 100%;
+    }
+    .services_item{
+        margin-bottom: 50px;
+    }
+    .header_section{
+        margin-top: 0;
+        border-bottom: 2px dotted #fff; 
+        margin-bottom: 30px;}
+    .hay-btn .topbar_right a{
         display: none;
     }
-    .topbar_item ul li {display: none;}
+    .topbar_item ul li {
+        display: none;}
 
     .header_img img {
         width: 90%;
     }
-    .services_bag{width: 393px;}
+    .services_bag{
+        width: 320px;
+    height: 485px;}
     .services_item img {
         width: 95%;
     }
-   .header_inner{ display: grid;
+    .contact_info input,
+    .contact_item textarea{
+        width: 90%;
+    }
+    .about_inner{
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .header_inner{
+        margin-top: 0;
+    }
+   .header_inner,
+   
+   .services_inner{ 
+    
         grid-template-columns: 1fr;}
-   .about_inner{ display: grid;
-        grid-template-columns: 1fr;}
-   .services_inner{ display: grid;
-        grid-template-columns: 1fr;}
-   .clints_inner{ display: grid;
+   .clints_inner{ 
+    
         grid-template-columns: 1fr 1fr;}
     .contact_inner {
-        display: grid;
+       
+        
         grid-template-columns: 1.5fr }
-     .menu-bar{
-            display: inline-block;
-           } 
-           .mobile-menu {
-            margin-left: 50px;
-        }
+    .menu-bar{
+        display: inline-block;
+     } 
+    
+     .about_dis p,
+     b,
+    .header_item p{
+        font-size: 15px;
+    }
+        
+    .header_item h1{
+         font-size: 30px;
+    }
+    .logo h1{
+        font-size: 30px;
+    }
+    .btn-primary a{
+        width: 95px;
+        margin-bottom: 30px;
+    }
   
 
 }
@@ -65,7 +118,8 @@
         width: 90%;
     }
    .header_inner{ display: grid;
-        grid-template-columns: 1fr;}
+        grid-template-columns: 1fr;
+    }
         .header_item h1{margin-top: 0;}
    .about_inner{ display: grid;
         grid-template-columns: 1fr;}
