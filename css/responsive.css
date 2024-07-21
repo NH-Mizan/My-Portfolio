@@ -57,7 +57,8 @@
     }
    .header_inner,
    
-   .services_inner{ 
+   .services_inner,
+   .target-inner{ 
     
         grid-template-columns: 1fr;
     }
@@ -198,11 +199,17 @@
         margin-top: 0;
     }
     .services_bag{
-        width: 430px;
+        width: 350px;
+        height: 490px;
     }
     .services_item img{
-        width: 405px;
+        width: 95%;
     }
+   
+    .hay-btn .topbar_right {
+        display: none;
+    }
+    
     
 
 }
