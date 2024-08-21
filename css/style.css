@@ -206,7 +206,12 @@ body{
     width: 100%;
     }
 
-
+    .bg-gradient{
+        background: linear-gradient(-25deg, #ff07c1 0%, #8664ff 100%);
+        color: transparent !important;
+        background-clip: text;
+       
+    }
 
 
 
