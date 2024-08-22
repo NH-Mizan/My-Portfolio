@@ -89,6 +89,16 @@
         width: 95px;
         margin-bottom: 30px;
     }
+    .next-sup-inner img {
+        height: 100px;
+        width: 50%;
+    }
+    .next-sup-item{
+        flex-direction: column;
+    }
+    .header-name{
+        text-align: left !important;
+    }
   
 
 }

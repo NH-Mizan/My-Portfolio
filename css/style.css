@@ -239,12 +239,13 @@ body{
 }
    @keyframes info{
     0%{
-        color: #ffff;
-        text-shadow: 0 0 15px #ffff;
+ 
+        color: #ff07c1;
+        text-shadow: 0 0 15px #ff07c1;
     }
     45%{
-        color: #ffca09;
-        text-shadow: 0 0 15px #ffca09;
+        color: #a509ff;
+        text-shadow: 0 0 15px #a509ff;
       
     }
     80%{
@@ -252,8 +253,8 @@ body{
         text-shadow: 0 0 15px #00ff95;
     }
     100%{
-        color: #ffff;
-        text-shadow: 0 0 15px #ffff;
+        color: #ff07c1;
+        text-shadow: 0 0 15px #ff07c1;
     }
    }
    .header_dis p{
